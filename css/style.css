@@ -1,0 +1,80 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar ul{
+    margin: 0px;
+}
+.navbar ul li{
+    display: inline-block;
+}
+
+.navbar ul .left img{
+    position: relative;
+    top: -6px;
+    height: 109px;
+    width: 110px;
+    margin-left:25px ;
+    margin-top: 20px;
+    background-color: bisque;
+    border-radius: 2px;
+}
+
+.navbar ul .right img{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    margin-left: 7rem;
+    top: 15px;
+}
+.navbar ul .right p{
+    text-align: right;
+    color: white;
+    margin-right: 16px;
+}
+
+.navbar ul .middletext h1{
+    margin-bottom: 0px;
+    margin-left: 11rem;
+    position: relative;
+    text-shadow: 1px 2px 1px #c93117d5;
+;
+    top: -20px;
+    color: floralwhite;
+    font-size: 44px;
+}
+.navbar ul .middletext h5{
+    margin: 0px;
+    text-align: center;
+    color: white;
+}
+.navbar ul .middletext h4{
+    text-align: center;
+    color: white;
+}
+
+
+.navbar{
+    background: #BF360C;
+}
+
+.links ul li{
+    display: inline-block;
+    margin-left: 20px;
+    
+}
+
+.links ul li h3{
+    padding: 5px;
+}
+
+.links ul li:hover{
+    background-color: #c93117d5;
+    color: white;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.links{
+    background: #ff5c35 ;
+}
